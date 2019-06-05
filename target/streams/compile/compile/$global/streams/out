@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/nishant/mongodb/research/cogni_scala_casbhah_test/scalatest/ScalaDriverTest.scala:8:8: object Helpers in package scala cannot be accessed in package org.mongodb.scala[0m
+[0m[[0m[31merror[0m] [0m[0mimport Helpers._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nishant/mongodb/research/cogni_scala_casbhah_test/scalatest/ScalaDriverTest.scala:19:25: value results is not a member of org.mongodb.scala.SingleObservable[org.mongodb.scala.Completed][0m
+[0m[[0m[31merror[0m] [0m[0m      collection.drop().results()[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nishant/mongodb/research/cogni_scala_casbhah_test/scalatest/ScalaDriverTest.scala:24:33: value results is not a member of org.mongodb.scala.SingleObservable[org.mongodb.scala.Completed][0m
+[0m[[0m[31merror[0m] [0m[0m      collection.insertOne(doc).results()[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nishant/mongodb/research/cogni_scala_casbhah_test/scalatest/ScalaDriverTest.scala:28:57: value printHeadResult is not a member of org.mongodb.scala.SingleObservable[org.mongodb.scala.Document][0m
+[0m[[0m[31merror[0m] [0m[0m      collection.find(equal("name", "MongoDB")).first().printHeadResult()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nishant/mongodb/research/cogni_scala_casbhah_test/scalatest/ScalaDriverTest.scala:34:67: value printResults is not a member of org.mongodb.scala.AggregateObservable[org.mongodb.scala.Document][0m
+[0m[[0m[31merror[0m] [0m[0m      collection.aggregate(Seq(filter(equal("name", "MongoDB")))).printResults()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
